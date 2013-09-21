@@ -1,0 +1,15 @@
+!!!
+html
+  head
+    title Your form
+  body
+    table.pure-table.pure-table-bordered
+      thead
+        tr
+          th Key
+          th Value
+      tbody
+       each val, index in formParams
+         tr
+          th= index
+          th= val
